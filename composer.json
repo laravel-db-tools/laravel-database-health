@@ -53,8 +53,8 @@
         "preferred-install": "dist"
     },
     "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage"
+        "test": "@php -d extension=pdo_sqlite vendor/bin/phpunit",
+        "test-coverage": "@php -d extension=pdo_sqlite vendor/bin/phpunit --coverage"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
