@@ -1,11 +1,11 @@
 <?php
 
-namespace YashBodar\LaravelDatabaseHealth\Facades;
+namespace LaravelDbTools\LaravelDatabaseHealth\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \YashBodar\LaravelDatabaseHealth\DatabaseHealth
+ * @see \LaravelDbTools\LaravelDatabaseHealth\DatabaseHealth
  */
 class DatabaseHealth extends Facade
 {

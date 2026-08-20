@@ -1,6 +1,6 @@
 <?php
 
-namespace YashBodar\LaravelDatabaseHealth\Commands;
+namespace LaravelDbTools\LaravelDatabaseHealth\Commands;
 
 use Illuminate\Console\Command;
 

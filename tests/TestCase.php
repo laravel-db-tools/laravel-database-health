@@ -1,9 +1,9 @@
 <?php
 
-namespace YashBodar\LaravelDatabaseHealth\Tests;
+namespace LaravelDbTools\LaravelDatabaseHealth\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use YashBodar\LaravelDatabaseHealth\DatabaseHealthServiceProvider;
+use LaravelDbTools\LaravelDatabaseHealth\DatabaseHealthServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

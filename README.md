@@ -12,7 +12,7 @@ Database diagnostics, performance insights, and health checks for Laravel applic
 You can install the package via Composer:
 
 ```bash
-composer require yash-bodar/laravel-database-health
+composer require laravel-db-tools/laravel-database-health
 ```
 
 You can publish the config file with:
