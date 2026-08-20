@@ -1,0 +1,60 @@
+{
+    "name": "yash-bodar/laravel-database-health",
+    "description": "Database diagnostics and health checks for Laravel applications.",
+    "keywords": [
+        "laravel",
+        "database",
+        "health",
+        "diagnostics",
+        "monitoring",
+        "performance"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yash Bodar",
+            "email": "yashbodar.developer@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/console": "^10.0|^11.0|^12.0",
+        "illuminate/database": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YashBodar\\LaravelDatabaseHealth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YashBodar\\LaravelDatabaseHealth\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YashBodar\\LaravelDatabaseHealth\\DatabaseHealthServiceProvider"
+            ],
+            "aliases": {
+                "DatabaseHealth": "YashBodar\\LaravelDatabaseHealth\\Facades\\DatabaseHealth"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
