@@ -1,8 +1,8 @@
 <?php
 
-namespace YashBodar\LaravelDatabaseHealth\Tests\Feature;
+namespace LaravelDbTools\LaravelDatabaseHealth\Tests\Feature;
 
-use YashBodar\LaravelDatabaseHealth\Tests\TestCase;
+use LaravelDbTools\LaravelDatabaseHealth\Tests\TestCase;
 
 class DatabaseHealthCommandTest extends TestCase
 {

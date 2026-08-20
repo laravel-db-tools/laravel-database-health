@@ -1,9 +1,9 @@
 <?php
 
-namespace YashBodar\LaravelDatabaseHealth;
+namespace LaravelDbTools\LaravelDatabaseHealth;
 
 use Illuminate\Support\ServiceProvider;
-use YashBodar\LaravelDatabaseHealth\Commands\DatabaseHealthCommand;
+use LaravelDbTools\LaravelDatabaseHealth\Commands\DatabaseHealthCommand;
 
 class DatabaseHealthServiceProvider extends ServiceProvider
 {

@@ -1,6 +1,7 @@
 {
-    "name": "yash-bodar/laravel-database-health",
+    "name": "laravel-db-tools/laravel-database-health",
     "description": "Database diagnostics and health checks for Laravel applications.",
+    "homepage": "https://github.com/laravel-db-tools/laravel-database-health",
     "keywords": [
         "laravel",
         "database",
@@ -29,21 +30,21 @@
     },
     "autoload": {
         "psr-4": {
-            "YashBodar\\LaravelDatabaseHealth\\": "src/"
+            "LaravelDbTools\\LaravelDatabaseHealth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "YashBodar\\LaravelDatabaseHealth\\Tests\\": "tests/"
+            "LaravelDbTools\\LaravelDatabaseHealth\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "YashBodar\\LaravelDatabaseHealth\\DatabaseHealthServiceProvider"
+                "LaravelDbTools\\LaravelDatabaseHealth\\DatabaseHealthServiceProvider"
             ],
             "aliases": {
-                "DatabaseHealth": "YashBodar\\LaravelDatabaseHealth\\Facades\\DatabaseHealth"
+                "DatabaseHealth": "LaravelDbTools\\LaravelDatabaseHealth\\Facades\\DatabaseHealth"
             }
         }
     },

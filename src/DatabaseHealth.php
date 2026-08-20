@@ -1,6 +1,6 @@
 <?php
 
-namespace YashBodar\LaravelDatabaseHealth;
+namespace LaravelDbTools\LaravelDatabaseHealth;
 
 class DatabaseHealth
 {
